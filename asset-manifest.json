@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/spike-sharing/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/spike-sharing/static/js/main.a0520340.chunk.js",
-    "main.js.map": "/spike-sharing/static/js/main.a0520340.chunk.js.map",
+    "main.js": "/spike-sharing/static/js/main.819dc8d2.chunk.js",
+    "main.js.map": "/spike-sharing/static/js/main.819dc8d2.chunk.js.map",
     "runtime-main.js": "/spike-sharing/static/js/runtime-main.49f4a3d2.js",
     "runtime-main.js.map": "/spike-sharing/static/js/runtime-main.49f4a3d2.js.map",
-    "static/js/2.ee338509.chunk.js": "/spike-sharing/static/js/2.ee338509.chunk.js",
-    "static/js/2.ee338509.chunk.js.map": "/spike-sharing/static/js/2.ee338509.chunk.js.map",
+    "static/js/2.53c4a6c7.chunk.js": "/spike-sharing/static/js/2.53c4a6c7.chunk.js",
+    "static/js/2.53c4a6c7.chunk.js.map": "/spike-sharing/static/js/2.53c4a6c7.chunk.js.map",
     "static/js/3.5aaa17d0.chunk.js": "/spike-sharing/static/js/3.5aaa17d0.chunk.js",
     "static/js/3.5aaa17d0.chunk.js.map": "/spike-sharing/static/js/3.5aaa17d0.chunk.js.map",
     "index.html": "/spike-sharing/index.html",
     "static/css/main.8c8b27cf.chunk.css.map": "/spike-sharing/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.ee338509.chunk.js.LICENSE.txt": "/spike-sharing/static/js/2.ee338509.chunk.js.LICENSE.txt"
+    "static/js/2.53c4a6c7.chunk.js.LICENSE.txt": "/spike-sharing/static/js/2.53c4a6c7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.49f4a3d2.js",
-    "static/js/2.ee338509.chunk.js",
+    "static/js/2.53c4a6c7.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.a0520340.chunk.js"
+    "static/js/main.819dc8d2.chunk.js"
   ]
 }
