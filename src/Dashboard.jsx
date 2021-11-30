@@ -8,7 +8,12 @@ export default function Dashboard() {
       .then((response) => {
         return response.json();
       })
-      .then((data) => setData({email: data.results[0].email, image: data.results[0].picture.medium));
+      .then((data) =>
+        setData({
+          email: data.results[0].email,
+          image: data.results[0].picture.medium,
+        })
+      );
   }, [setData]);
   return (
     <>
@@ -16,10 +21,7 @@ export default function Dashboard() {
         <meta name="description" content={data.email} />
         <meta property="og:title" content={data.email} />
         <meta property="og:type" content="article" />
-        <meta
-          property="og:image"
-          content={data?.image}
-        />
+        <meta property="og:image" content={data?.image} />
         <meta
           property="og:url"
           content="https://platform.gracepapers.com.au/lesson/1"
