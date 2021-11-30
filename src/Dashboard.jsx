@@ -8,17 +8,17 @@ export default function Dashboard() {
       .then((response) => {
         return response.json();
       })
-      .then((data) => setData(data.results[0].email));
+      .then((data) => setData({email: data.results[0].email, image: data.results[0].picture.medium));
   }, [setData]);
   return (
     <>
       <Helmet>
-        <meta name="description" content={data} />
-        <meta property="og:title" content={data} />
+        <meta name="description" content={data.email} />
+        <meta property="og:title" content={data.email} />
         <meta property="og:type" content="article" />
         <meta
           property="og:image"
-          content="https://grace-papers.imgix.net/images/v2lesson/47/12.png?w=318&h=150&fit=crop"
+          content={data?.image}
         />
         <meta
           property="og:url"
@@ -26,7 +26,7 @@ export default function Dashboard() {
         />
         <meta name="twitter:card" content="summary_large_image" />
 
-        <meta property="og:description" content={data} />
+        <meta property="og:description" content={data.email} />
         <meta property="og:site_name" content="Grace Papers" />
         <meta name="twitter:image:alt" content="An image alt" />
       </Helmet>
