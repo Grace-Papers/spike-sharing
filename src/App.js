@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./Dashboard";
 import LessonScreen1 from "./LessonScreen1";
